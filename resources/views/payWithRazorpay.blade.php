@@ -134,6 +134,9 @@
                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
            }
          }); 
+
+
+         
          $('body').on('click', '.buy_now', function(e){
            var totalAmount = $(this).attr("data-amount");
            var product_id =  $(this).attr("data-id");
