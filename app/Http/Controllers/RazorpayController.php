@@ -12,6 +12,8 @@ class RazorpayController extends Controller
 {
     public function show_products()
 	{
+		$a=1;
+		$b=1;
 		return view('payWithRazorpay');
 	}
 
