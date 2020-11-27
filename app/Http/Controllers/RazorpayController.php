@@ -13,7 +13,7 @@ class RazorpayController extends Controller
     public function show_products()
 	{
 		$a=1;
-		$b=4;
+		$b=10;
 		return view('payWithRazorpay');
 	}
 
